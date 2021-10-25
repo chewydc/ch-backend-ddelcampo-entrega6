@@ -1,0 +1,16 @@
+{
+  "name": "plantillas1_ddelcampo",
+  "version": "1.0.0",
+  "description": "Entregable 5: Proyecto Plantillas 1",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "author": "Damian del Campo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.0",
+    "socket.io": "^4.3.1"
+  }
+}

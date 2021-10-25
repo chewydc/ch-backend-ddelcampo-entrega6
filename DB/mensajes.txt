@@ -1,0 +1,27 @@
+[
+  {
+    "mail": "marian@gl.com",
+    "mensaje": "hola a todos",
+    "fyh": "25/10/2021 10:19:13"
+  },
+  {
+    "mail": "ddelcampo@teco.com.ar",
+    "mensaje": "hola",
+    "fyh": "25/10/2021 10:38:39"
+  },
+  {
+    "mail": "mariano@coder.com",
+    "mensaje": "todo bien?",
+    "fyh": "25/10/2021 10:40:59"
+  },
+  {
+    "mail": "damian@josm.com",
+    "mensaje": "Hola Jose",
+    "fyh": "25/10/2021 10:52:30"
+  },
+  {
+    "mail": "jose@jdl.ps",
+    "mensaje": "Hola Damian",
+    "fyh": "25/10/2021 10:52:47"
+  }
+]
