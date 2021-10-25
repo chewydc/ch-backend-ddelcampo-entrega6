@@ -21,8 +21,6 @@ app.use('/api/productos',routerProductos)
 const ContenedorMsjs = require('./router/ContenedorMsjs.js')
 const mensajesApi = new ContenedorMsjs('./DB/mensajes.txt')
 
-let mensajes = [];
-
 io.on('connection', clientSocket => {
   console.log(`#${clientSocket.id} se conectó`)
 
@@ -52,7 +50,7 @@ app.post('/api/mensajes', async (req, res) => {
 })
 //-------------------------------------------------------------------
 // Cargo el server
-const PORT =  8080
+const PORT = process.env.PORT || 8080
 const server = httpServer.listen(PORT, () => {
 console.info(`Servidor HTTP escuchando en el puerto ${server.address().port}`)
 })
